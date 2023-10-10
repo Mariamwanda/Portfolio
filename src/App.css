@@ -1,7 +1,27 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: url("./assets/portfolio.webp") no-repeat;
+  background-size: cover;
+}
+
+.header ul {
+  width: 100%;
+  height: 70px;
+  background-color: red;
+  display: flex;
+  float: left;
+  align-items: center;
+  padding-left: 60%;
+  list-style: none;
+  color: white;
+}
+
+.header ul :link {
+  text-decoration: none;
+  padding: 40px;
+}
