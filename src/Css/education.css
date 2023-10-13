@@ -1,0 +1,69 @@
+.container {
+}
+
+#education h1 {
+  text-align: center;
+  color: yellow;
+  padding: 20px;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+.cadre .sara {
+  margin: auto;
+  background-color: red;
+  width: 80vw;
+  padding-left: 30%;
+}
+
+.AnnéeNiveau .Année h3 {
+  text-transform: capitalize;
+}
+.Niveau .Année h3 span {
+  text-transform: lowercase;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  padding: 26px 0 30px;
+}
+.icon i {
+  font-size: 10px;
+  color: rgb(230, 130, 80);
+  margin-right: 5px;
+}
+span.trait {
+  display: inline-block;
+  background: aqua;
+  height: 1px;
+  width: 100%;
+}
+
+.Niveau {
+  width: 30vw;
+  border: 2px solid white;
+  gap: 2;
+}
+
+.Niveau h2 {
+  color: burlywood;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.Niveau h3 {
+  font-size: 1.4rem;
+  color: aqua;
+  text-align: center;
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+
+.Description h4,
+h5 {
+  text-align: center;
+  color: yellow;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}

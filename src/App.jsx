@@ -4,6 +4,7 @@ import Header from "./composants/header.jsx";
 import Home from "./pages/Home.jsx";
 import Education from "./composants/Education.jsx";
 import Contact from "./composants/Contact.jsx";
+import Footer from "./composants/Footer.jsx";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
          <Route path="/Header" element={<Header/> } />
          <Route path="/Education" element={<Education/> } />
          <Route path="/Contact" element={<Contact/> } />
+         <Route path="/Footer" element={<Footer/> } />
         </Routes>
       </BrowserRouter>
     </>

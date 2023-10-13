@@ -28,13 +28,13 @@ function Contact() {
               <select id="pays" name="Pays">
                 <option value="">Côte divoire</option>
                 <option value="">France</option>
-                <option value="">Etats</option>
+                <option value="">Burkina/Faso</option>
               </select>
               <label htmlFor="subject">Object</label>
               <textarea
                 id="subject"
                 name="subject"
-                placeholder="Write something.."
+                placeholder="ecrire.."
                 style={{ height: "170px" }}
               ></textarea>
               <input type="submit" value="Envoyer" />
@@ -77,6 +77,11 @@ function Contact() {
                   <li>
                     <Link to="">
                       <i className="fa-brands fa-google"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="">
+                    <i className="fab fa-github"></i>
                     </Link>
                   </li>
                 </ul>

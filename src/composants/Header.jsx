@@ -1,7 +1,6 @@
 import classNames from "classnames";
 import useSticky from "./useSticky";
 import "./../Css/header.css";
-import { Link } from "react-router-dom";
 
 export default function Header() {
   const { sticky, stickyRef } = useSticky();
@@ -10,19 +9,16 @@ export default function Header() {
       <nav ref={stickyRef} className={classNames("nav flex", { sticky })}>
         <ul>
           <li>
-            <Link to="">Accueil</Link>
+            <a href="">Accueil</a>
           </li>
           <li>
-            <Link to="">A propos</Link>
+            <a href="">A propos</a>
           </li>
           <li>
-            <Link to="">Compétences</Link>
+            <a href="">Compétences & Experience</a>
           </li>
           <li>
-            <Link to="">Projets</Link>
-          </li>
-          <li>
-            <Link to="">Contact-Moi</Link>
+            <a href="#Contact">Contact-Moi</a>
           </li>
         </ul>
       </nav>

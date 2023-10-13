@@ -11,6 +11,7 @@
 #Contact label {
   font-size: 1.4rem;
   color: purple;
+  font-family: sans-serif;
 }
 
 #Contact input[type="text"],
@@ -87,9 +88,11 @@ textarea {
 }
 
 #Contact .texte {
-  border: 2px solid grey;
   width: 80vw;
   height: 57vh;
+  background-color: rgba(128, 128, 128, 0.182);
+  border-radius: 50px/20px;
+  margin-bottom: 70px;
 }
 
 #Contact .hm-foot-icon ul li {
@@ -97,7 +100,7 @@ textarea {
 }
 #Contact .hm-foot-icon ul li > a {
   color: purple;
-  border: 2px solid aqua;
+  border: 2px solid purple;
   padding: 10px;
   border-radius: 100%;
   margin-right: 18px;
@@ -108,18 +111,7 @@ textarea {
   transition: 0.3s;
 }
 #Contact .hm-foot-icon ul li > a:hover {
-  color: aqua;
-}
-
-#Contact .hm-footer-copyright p {
-  color: #888ea5;
-  text-transform: capitalize;
-  padding: 38px 0;
-}
-#Contact .hm-footer-copyright p a {
-  color: #888ea5;
-  text-decoration: none;
-  font-size: 3rem;
+  color: #333;
 }
 
 @keyframes example {
