@@ -97,6 +97,7 @@ textarea {
 
 #Contact .hm-foot-icon ul li {
   float: left;
+  list-style: none;
 }
 #Contact .hm-foot-icon ul li > a {
   color: purple;
