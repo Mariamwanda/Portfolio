@@ -8,52 +8,46 @@ function Apropos() {
       <div className="Apropos">
         <section id="about">
           <div className="apropos-img">
-            <div className="single-about-img">
-              <img src={imd} alt="profile_image" />
-            </div>
+            <img src={imd} alt="profile_image" />
           </div>
-          <div className="container section-heading text-center">
-            <h1>
-              <span>Apropos</span> de Moi...
-            </h1>
-          </div>
+          <h1>
+            <span>Apropos</span> de Moi...
+          </h1>
           <div className="apropo-text">
             <div className="about-content">
               <div className="row">
                 <div className="col-sm-6">
                   <div className="single-about-txt">
-                    <h3>deve</h3>
+                    <h3>Developpeuse <span>Front-end Javascript</span></h3>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Maiores numquam ea esse asperiores vel id pariatur. Hic
-                      tempora itaque non labore unde autem odit voluptas facere!
-                      Laboriosam officiis cupiditate autem. Lorem ipsum dolor
-                      sit amet consectetur adipisicing elit. Facilis dolores
-                      odit nemo voluptates officia beatae tenetur saepe eligendi
-                      ipsum magnam! Sequi, iste quis enim eius laudantium neque
-                      doloribus! Repellat, vel.
+                      Je suis
                     </p>
+                    <div>
+                      <i className="fa-brands fa-react"></i>
+
+                      <h2>langage</h2>
+                    </div>
                   </div>
                 </div>
                 <div className="about-list-icon">
                   <ul>
                     <li>
-                      <Link to="">
+                      <Link to="https://wa.me/0575530518">
                         <i className="fa-brands fa-whatsapp"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="">
+                      <Link to="https://t.me/0575530518">
                         <i className="fa-brands fa-telegram"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="">
+                      <Link to="https://gmail.com/mariamwandaogo7@gmail.com">
                         <i className="fa-brands fa-google"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="">
+                      <Link to="https://github.com/Mariamwanda">
                         <i className="fab fa-github"></i>
                       </Link>
                     </li>

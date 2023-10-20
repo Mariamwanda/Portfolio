@@ -10,12 +10,11 @@
 }
 
 .Apropos h1 {
-  text-align: center;
   font-size: 3rem;
   position: absolute;
   font-family: sans-serif;
-  top: 17vh;
-  margin-left: 5vw;
+  margin-left: 40vw;
+  bottom: -20vh;
   color: #333;
 }
 
@@ -30,8 +29,7 @@
 }
 
 .Apropos .apropos-img {
-  width: 39vw;
-  position: relative;
+  width: 45vw;
   box-shadow: 1px 5px 9px 2px grey;
 }
 
@@ -40,15 +38,16 @@
   height: 80vh;
 }
 
-.Apropos #about .apropo-text {
-  width: 43vw;
-  position: absolute;
-  left: 44.4vw;
-  top: 26%;
-  height: 35vh;
+.Apropos .apropo-text {
+  position: relative;
+  right: 7.5vw;
+  top: 20vh;
+  height: 40vh;
   background-color: aqua;
   border-radius: 20px;
   opacity: 0.7;
+  width: 62%;
+  z-index: 1000;
 }
 
 .Apropos .about-content {
@@ -56,8 +55,14 @@
 }
 
 .Apropos .single-about-txt h3 {
-  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: sans-serif;
   text-align: center;
+  color: #333;
+}
+
+.Apropos .single-about-txt span {
+  font-weight: bold;
   color: purple;
 }
 .Apropos .single-about-txt p {

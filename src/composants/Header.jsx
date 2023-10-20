@@ -1,34 +1,8 @@
-import classNames from "classnames";
-import useSticky from "./useSticky";
 import "./../Css/header.css";
 
 export default function Header() {
-  const { sticky, stickyRef } = useSticky();
   return (
     <div className="App">
-      <nav ref={stickyRef} className={classNames("nav flex", { sticky })}>
-        <ul>
-          <li>
-            <a href="">Accueil</a>
-          </li>
-          <li>
-            <a href="">A propos</a>
-          </li>
-          <li>
-            <a href="">Compétences & Experience</a>
-          </li>
-          <li>
-            <a href="#Contact">Contact-Moi</a>
-          </li>
-        </ul>
-      </nav>
-      {sticky && (
-        <div
-          style={{
-            height: `${stickyRef.current?.clientHeight}px`,
-          }}
-        />
-      )}
       <header className="header">
         <div className="Nom">
           <h1>Salut,</h1>

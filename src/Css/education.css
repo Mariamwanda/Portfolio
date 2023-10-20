@@ -1,6 +1,3 @@
-.container {
-}
-
 #education h1 {
   text-align: center;
   color: yellow;
@@ -9,11 +6,12 @@
   font-family: sans-serif;
 }
 
+#education {
+  display: flex;
+}
+
 .cadre .sara {
-  margin: auto;
   background-color: red;
-  width: 80vw;
-  padding-left: 30%;
 }
 
 .AnnéeNiveau .Année h3 {

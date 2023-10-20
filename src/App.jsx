@@ -6,6 +6,8 @@ import Education from "./composants/Education.jsx";
 import Contact from "./composants/Contact.jsx";
 import Footer from "./composants/Footer.jsx";
 import Apropos from "./composants/Apropos.jsx";
+import Navbar from "./composants/Navbar.jsx";
+import Essai from "./composants/essai.jsx";
 import "./App.css";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
          <Route path="/Contact" element={<Contact/> } />
          <Route path="/Footer" element={<Footer/> } />
          <Route path="/Apropos" element={<Apropos/> } />
+         <Route path="/Navbar" element={<Navbar/> } />
+         <Route path="/Essai" element={<Essai/> } />
         </Routes>
       </BrowserRouter>
     </>
