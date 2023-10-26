@@ -1,40 +1,38 @@
-import classNames from "classnames";
-import useSticky from "./useSticky";
 import "./../Css/navbar.css";
 import { Link } from "react-router-dom";
-
 function Navbar() {
-  const { sticky, stickyRef } = useSticky();
   return (
     <>
-      <nav ref={stickyRef} className={classNames("nav flex", { sticky })}>
-        <button className="toggle-button">
-          <div className="bar" />
-          <div className="bar" />
-          <div className="bar" />
-        </button>
-        <ul className="nav-links">
-          <li>
-            <Link to="#">Accueil</Link>
-          </li>
-          <li>
-            <Link to="#">Apropos</Link>
-          </li>
-          <li>
-            <Link to="#">Experience & Compétence</Link>
-          </li>
-          <li>
-            <Link to="#">Contact-Moi</Link>
-          </li>
-        </ul>
+      <nav
+        className="
+                py-4 text-white fixed  
+                w-full top-0 left-0 "
+      >
+        <div className="container mx-auto">
+          <ul className="ml-8 space-x-12 ">
+            <li className="inline-block">
+              <a href="/">
+                Home
+              </a>
+            </li>
+            <li className="inline-block">
+              <a href="">
+                Practice
+              </a>
+            </li>
+            <li className="inline-block">
+              <Link to="" >
+                Tutorials
+              </Link>
+            </li>
+            <li className="inline-block">
+              <Link to="">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
-      {sticky && (
-        <div
-          style={{
-            height: `${stickyRef.current?.clientHeight}px`,
-          }}
-        />
-      )}
     </>
   );
 }

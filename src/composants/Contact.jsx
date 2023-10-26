@@ -11,12 +11,7 @@ function Contact() {
           <div className="column">
             <form style={{ width: "100%" }}>
               <label htmlFor="fname">Nom</label>
-              <input
-                type="text"
-                id="fname"
-                name="nom"
-                placeholder="Nom.."
-              />
+              <input type="text" id="fname" name="nom" placeholder="Nom.." />
               <label htmlFor="lname">Prenom</label>
               <input
                 type="text"
@@ -24,12 +19,14 @@ function Contact() {
                 name="prenom"
                 placeholder="Prenom.."
               />
-              <label htmlFor="pays">Pays</label>
-              <select id="pays" name="Pays">
-                <option value="">Côte divoire</option>
-                <option value="">France</option>
-                <option value="">Burkina/Faso</option>
-              </select>
+              <div className="relative">
+                <label htmlFor="pays">Pays</label>
+                <select className="...">
+                  <option>Indiana</option>
+                  <option>Michigan</option>
+                  <option>Ohio</option>
+                </select>
+              </div>
               <label htmlFor="subject">Object</label>
               <textarea
                 id="subject"
@@ -66,7 +63,7 @@ function Contact() {
                 <ul>
                   <li>
                     <Link to="">
-                    <i className="fa-brands fa-whatsapp"></i>
+                      <i className="fa-brands fa-whatsapp"></i>
                     </Link>
                   </li>
                   <li>
@@ -81,7 +78,7 @@ function Contact() {
                   </li>
                   <li>
                     <Link to="">
-                    <i className="fab fa-github"></i>
+                      <i className="fab fa-github"></i>
                     </Link>
                   </li>
                 </ul>
