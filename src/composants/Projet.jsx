@@ -1,94 +1,318 @@
 import "./../Css/projet.css";
-const products = [
-  {
-    id: 1,
-    name: "Earthen Bottle",
-    href: "#",
-    price: "$48",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
-    imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
-  },
-  {
-    id: 2,
-    name: "Nomad Tumbler",
-    href: "#",
-    price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
-    imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
-  },
-  {
-    id: 3,
-    name: "Focus Paper Refill",
-    href: "#",
-    price: "$89",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 4,
-    name: "Machined Mechanical Pencil",
-    href: "#",
-    price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
-  },
-  {
-    id: 4,
-    name: "Machined Mechanical Pencil",
-    href: "#",
-    price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
-  },
-  {
-    id: 4,
-    name: "Machined Mechanical Pencil",
-    href: "#",
-    price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
-  },
-  // More products...
-];
 
-function Projet() {
+export default function Projet() {
   return (
-    <div className="bg-white Projet">
-      <div className=" max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-12">
-        <h1>Projet</h1>
+    <div className=" Projet">
+      <div className="mx-auto max-w-12xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+          <center>
+            <h2 className="text-2xl font-bold text-gray-900 ">Projets</h2>
+          </center>
 
-        <div className="grid grid-cols-12 gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-12">
-          {products.map((product) => (
-            <a key={product.id} href={product.href} className="group">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-red-400 xl:aspect-h-8 xl:aspect-w-7">
-                <img
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center group-hover:opacity-75"
-                />
-              </div>
-              <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-gray-900">
-                {product.price}
-              </p>
-            </a>
-          ))}
+          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0"></div>
+          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
+            <div className="projt1 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="projt2 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="projt3 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="projt4 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="projt5 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    {/* Hidden content */}
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                        {/* <p className="text-base font-semibold text-gray-900">
+                          ldfdsfsqfgrq
+                        </p> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="projt6 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    {/* Hidden content */}
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                        {/* <p className="text-base font-semibold text-gray-900">
+                          ldfdsfsqfgrq
+                        </p> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="projt7 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    {/* Hidden content */}
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                        {/* <p className="text-base font-semibold text-gray-900">
+                          ldfdsfsqfgrq
+                        </p> */}
+                      </div>
+                    </div>
+                    {/* End of hidden content */}
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="projt8 relative">
+              <a
+                className="relative block w-1/4 h-64 
+                      bg-red-900 group "
+                href="##"
+              >
+                <div
+                  className="absolute  inset-0 
+                            w-full h-64 group-hover:opacity-100"
+                ></div>
+                <div className="relative p-10">
+                  <div className="mt-2">
+                    {/* Hidden content */}
+                    <div
+                      className="transition-all transform 
+                      
+                                translate-y-8 opacity-0 
+                                group-hover:opacity-100 bg-red
+                                group-hover:translate-y-0"
+                    >
+                      <div className="p-2">
+                        <p className="text-xl text-white">
+                          Welcome to GeeksforGeeks.
+                        </p>
+                        <button
+                          className="px-4 py-2 text-sm 
+                                            text-white bg-green-600"
+                        >
+                          Learn more
+                        </button>
+                        {/* <p className="text-base font-semibold text-gray-900">
+                          ldfdsfsqfgrq
+                        </p> */}
+                      </div>
+                    </div>
+                    {/* End of hidden content */}
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>hhiioikkl</p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-export default Projet;

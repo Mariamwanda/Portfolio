@@ -1,4 +1,85 @@
-.Projet{
-    background-color: brown;
+.Projet {
+  background-color: rgb(250, 243, 243);
+  width: 100vw;
+  display: flex;
+}
 
+.Projet .relative img {
+  border: 2px solid rgb(100, 69, 188);
+}
+
+.Projet .relative:hover img {
+  background-color: red;
+}
+
+.Projet .projt1 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
+}
+
+.Projet .projt2 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
+}
+
+.Projet .projt3 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
+}
+
+.Projet .projt4 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
+}
+
+.Projet .projt5 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
+}
+
+.Projet .projt6 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
+}
+
+.Projet .projt7 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
+}
+
+.Projet .projt8 a {
+  width: 100%;
+  background: url("./../assets/portfolio.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  border: 2px solid rgb(100, 69, 188);
+  margin-top: 30px;
 }
