@@ -5,9 +5,14 @@ export default function Projet() {
   return (
     <div className=" Projet">
       <div className="mx-auto max-w-12xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-10">
           <center>
-            <h2 className="text-2xl font-bold text-gray-900 ">Projets</h2>
+            <h2
+              className="text-2xl font-bold text-gray-900 "
+              style={{ color: "purple" }}
+            >
+              Projets
+            </h2>
           </center>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0"></div>

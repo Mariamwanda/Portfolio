@@ -8,6 +8,7 @@ import Apropos from "./composants/Apropos.jsx";
 import Navbar from "./composants/Navbar.jsx";
 import Essai from "./composants/essai.jsx";
 import Projet from "./composants/Projet.jsx";
+import Competence from "./composants/competence&experienc.jsx";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Navbar" element={<Navbar />} />
           <Route path="/Essai" element={<Essai />} />
           <Route path="/Projet" element={<Projet />} />
+          <Route path="/Competence" element={<Competence />} />
         </Routes>
       </BrowserRouter>
     </>
@@ -31,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+/*https://cvdesignr.com/p/651ad053e8a59*/

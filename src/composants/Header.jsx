@@ -1,6 +1,8 @@
 import "./../Css/header.css";
+import MariamCv from "./../assets/MariamCv.pdf";
 
 export default function Header() {
+
   return (
     <div className="App">
       <header className="header">
@@ -12,10 +14,10 @@ export default function Header() {
             <br />
             <span>D</span>eveloppeuse <span>W</span>eb
           </p>
-          <a href="/img/twitter.png" download>
+          <a href={MariamCv}  target="_blank" rel="noopener noreferrer">
             <button>
-              <i className="fa fa-download" style={{ color: "aqua" }}></i>{" "}
-              Telecharger Cv
+              <i className="fa fa-eye" style={{ color: "aqua" }}></i>{" "}
+              Imprimer Cv
             </button>
           </a>
         </div>

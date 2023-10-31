@@ -4,17 +4,19 @@ import Footer from "../composants/Footer";
 import Header from "../composants/Header.jsx";
 import Apropos from "../composants/Apropos";
 import  Navbar  from "../composants/Navbar";
+import Projet from "../composants/Projet";
 
 function Home() {
   return (
     <>
       <div className="Home">
-      <Navbar />
-        <Header />
-        <Apropos />
-        <Education />
-        <Contact />
-        <Footer />
+        <Navbar />
+          <Header />
+          <Apropos />
+          <Education />
+          <Projet/>
+          <Contact />
+          <Footer />
       </div>
     </>
   );

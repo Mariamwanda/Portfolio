@@ -1,65 +1,54 @@
-import imd from "./../assets/portfolio.webp";
+
 import "./../Css/apropos.css";
-import { Link } from "react-router-dom";
 
-function Apropos() {
+
+
+
+const About = () => {
+  const personalInfo = {
+    name: 'Votre Nom',
+    email: 'votre@email.com',
+    imageSrc: 'url_de_votre_image.jpg',
+  };
+
+  const skills = [
+    { skill: 'Compétence 1', percentage: 90 },
+    { skill: 'Compétence 2', percentage: 80 },
+    { skill: 'Compétence 3', percentage: 70 },
+  ];
+
   return (
-    <>
-      <div className="Apropos">
-        <section id="about">
-          <div className="apropos-img">
-            <img src={imd} alt="profile_image" />
-          </div>
-          <h1>
-            <span>Apropos</span> de Moi...
-          </h1>
-          <div className="apropo-text">
-            <div className="about-content">
-              <div className="row">
-                <div className="col-sm-6">
-                  <div className="single-about-txt">
-                    <h3>Developpeuse <span>Front-end Javascript</span></h3>
-                    <p>
-                      Je suis
-                    </p>
-                    <div>
-                      <i className="fa-brands fa-react"></i>
-
-                      <h2>langage</h2>
-                    </div>
-                  </div>
-                </div>
-                <div className="about-list-icon">
-                  <ul>
-                    <li>
-                      <Link to="https://wa.me/0575530518">
-                        <i className="fa-brands fa-whatsapp"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="https://t.me/0575530518">
-                        <i className="fa-brands fa-telegram"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="https://gmail.com/mariamwandaogo7@gmail.com">
-                        <i className="fa-brands fa-google"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="https://github.com/Mariamwanda">
-                        <i className="fab fa-github"></i>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+    <div className="p-4">
+      <h1 className="text-3xl font-bold text-center mb-4">À propos de moi</h1>
+      <div className="flex items-center justify-center">
+        <div className="w-1/4 text-center">
+          <img
+            src={personalInfo.imageSrc}
+            alt={personalInfo.name}
+            className="w-32 h-32 rounded-full mx-auto"
+          />
+        </div>
+        <div className="w-3/4 ml-4">
+          <h2 className="text-xl font-semibold">{personalInfo.name}</h2>
+          <p className="text-gray-600">{personalInfo.email}</p>
+        </div>
+      </div>
+      <div className="mt-6">
+        <h2 className="text-xl font-semibold mb-2">Compétences</h2>
+        {skills.map((item, index) => (
+          <div key={index} className="mb-2">
+            <p className="font-semibold">{item.skill}</p>
+            <div className="bg-gray-200 w-full h-3 mt-1 rounded">
+              <div
+                className="bg-blue-500 h-3 rounded"
+                style={{ width: `${item.percentage}%` }}
+              ></div>
             </div>
           </div>
-        </section>
+        ))}
       </div>
-    </>
+    </div>
   );
-}
+};
 
-export default Apropos;
+export default About;

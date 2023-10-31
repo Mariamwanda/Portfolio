@@ -12,17 +12,22 @@ function Navbar() {
           <ul className="ml-8 space-x-12 ">
             <li className="inline-block">
               <a href="/">
-                Home
-              </a>
-            </li>
-            <li className="inline-block">
-              <a href="">
-                Practice
+                Accueil
               </a>
             </li>
             <li className="inline-block">
               <Link to="" >
-                Tutorials
+                Apropos
+              </Link>
+            </li>
+            <li className="inline-block">
+              <a href="">
+                  Compétences & Experience
+              </a>
+            </li>
+            <li className="inline-block">
+              <Link to="" >
+                Projet
               </Link>
             </li>
             <li className="inline-block">
